@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,800&display=swap");
+
+:root{
+    --lightblue: #579ad1;
+    --grey: rgb(136, 136, 136);
+    --blue: #66b0ce;
+    --darkblue: #11406d;
+    --pink: #e83e8c;
+    --error: rgb(255, 74, 74);
+}
+
+.error {
+  color: var(--error);
+}
+
+.text-center{
+  font-family: "Poppins", sans-serif;
+}
+
+.card-form {
+  background-image: linear-gradient(45deg, #003a38, #9ecac7);
+  display: flex;
+  min-height: 100vh;
+}
+
+.prof-card {
+  width: 22rem;
+  margin-left: calc(100% - 22rem);
+}
+
+.backbtn {
+  font-size: 1.5rem;
+  background: var(--primary);
+  border-radius: 3px 3px 3px 3px;
+  border: 0;
+  height: 45px;
+  padding-top: 0;
+  margin: 2% 0;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.438);
+}
+
+.backbtn:hover {
+  transition: 300ms;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+input, textarea {
+  width: 100%;
+  height: 2.5rem;
+  border-width: 0px;
+  outline-color: #fff;
+  outline: none !important;
+  border-color: var(--grey);
+  box-shadow: 0 0 3px var(--grey);
+  border-radius: 0.5rem;
+  transition: all 0.1s ease-in-out;
+}
+
+textarea{
+    height: 3rem;
+}
+
+input:hover, textarea:hover {
+    outline: none !important;     
+    border-color: var(--blue);     
+    box-shadow: 0 0 4px var(--blue); 
+}
+
+.col{
+    margin: 0.5rem;
+}
+
+select, option{
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 2.5rem;
+  border-width: 0px;
+  outline-color: #fff;
+  outline: none !important;
+  border-color: var(--grey);
+  box-shadow: 0 0 3px var(--grey);
+  border-radius: 0.5rem;
+  transition: all 0.1s ease-in-out;
+}
+
+select:hover, option:hover {
+    outline: none !important;     
+    border-color: var(--blue);     
+    box-shadow: 0 0 4px var(--blue); 
+}
+
+
+.AddProduct {
+  font-family: "Poppins", sans-serif; 
+  background-color: hsla(0, 0%, 100%, 0.555);
+  height: auto;
+  padding: 1.3rem;
+  margin: 4rem auto;
+  border-radius: 1%;
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.4);
+}
+
+.button input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.button {
+  transition: all 0.23s ease-in-out;
+  text-align: center;
+  min-height: 2.4rem;
+  display: block;
+  outline: none !important;
+  border-color: var(--grey);
+  box-shadow: 0 0 3px var(--grey);
+  border-radius: 0.4rem;
+  font-size: 0.9rem;  
+}
+
+
+.button:hover {
+  cursor: pointer;
+  background: var(--lightblue);
+  color:black;
+  border-color: white;
+}
+
+.grid-container{
+  border-radius: 0.7rem;
+  margin-top: 2rem;
+  padding: 0.2rem;
+  width: 60%;
+  margin-left: 20%;
+  box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.4);
+  
+}
+
+.parent{
+  padding: 2rem;
+  margin: 2rem;
+  border: solid rgb(175, 173, 173) 0.3px;
+  border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+  html {
+      
+    font-size: 75%;
+  }
+
+  .backbtn{
+    width:7rem;
+  }
+
+ .AddProduct{
+   margin-top: 10px;
+ }
+
+ .card-form {
+  display: block;
+}
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 65%;
+  }
+  .grid-container{
+  width: 80%;
+  margin-left: 10%;
+  }
+  .backbtn{
+    width:6rem;
+  }
+ .AddProduct{
+   margin-top: 10px;
+ }
+
+ .card-form {
+  display: block;
+}
+
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 55%;
+  }
+  .grid-container{
+  width: 90%;
+  margin-left: 5%;
+}
+  
+}
+
