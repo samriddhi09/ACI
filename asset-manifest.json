@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/samriddhi09/ACI/static/css/main.4193f362.chunk.css",
+    "main.js": "/samriddhi09/ACI/static/js/main.991eb577.chunk.js",
+    "main.js.map": "/samriddhi09/ACI/static/js/main.991eb577.chunk.js.map",
+    "runtime-main.js": "/samriddhi09/ACI/static/js/runtime-main.098d8639.js",
+    "runtime-main.js.map": "/samriddhi09/ACI/static/js/runtime-main.098d8639.js.map",
+    "static/css/2.323c88ee.chunk.css": "/samriddhi09/ACI/static/css/2.323c88ee.chunk.css",
+    "static/js/2.d5117a06.chunk.js": "/samriddhi09/ACI/static/js/2.d5117a06.chunk.js",
+    "static/js/2.d5117a06.chunk.js.map": "/samriddhi09/ACI/static/js/2.d5117a06.chunk.js.map",
+    "index.html": "/samriddhi09/ACI/index.html",
+    "static/css/2.323c88ee.chunk.css.map": "/samriddhi09/ACI/static/css/2.323c88ee.chunk.css.map",
+    "static/css/main.4193f362.chunk.css.map": "/samriddhi09/ACI/static/css/main.4193f362.chunk.css.map",
+    "static/js/2.d5117a06.chunk.js.LICENSE.txt": "/samriddhi09/ACI/static/js/2.d5117a06.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.098d8639.js",
+    "static/css/2.323c88ee.chunk.css",
+    "static/js/2.d5117a06.chunk.js",
+    "static/css/main.4193f362.chunk.css",
+    "static/js/main.991eb577.chunk.js"
+  ]
+}
